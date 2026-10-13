@@ -20,11 +20,6 @@ public class Tarefa
         Concluida = concluida;
     }
 
-    public static Tarefa CriarTarefa(string descricao, bool concluida = false)
-    {
-        return new Tarefa(descricao, concluida);
-    }
-
     public void AlternarStatus()
     {
         Concluida = !Concluida;
