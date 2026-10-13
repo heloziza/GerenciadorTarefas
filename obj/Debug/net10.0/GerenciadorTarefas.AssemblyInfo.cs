@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorTarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89ab953ac99883bfd4e108fc0f14a8a221e98c5a")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61050ca127d74100362593fabc4345080b98c2b2")]
+>>>>>>> parent of 89ab953 (feat: finaliza projeto 1 com metodos LINQ, validacao completas, alternancia de status, menu interativo e tratamento de lista vazia)
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorTarefas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorTarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

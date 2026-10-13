@@ -18,9 +18,7 @@ while (continuar)
     Console.WriteLine("\n=== Gerenciador de Tarefas ===");
     Console.WriteLine("1. Adicionar tarefa");
     Console.WriteLine("2. Listar tarefas");
-    Console.WriteLine("3. Alternar status de uma tarefa");
-    Console.WriteLine("4. Excluir tarefa");
-    Console.WriteLine("5. Sair");
+    Console.WriteLine("3. Sair");
 
     Console.Write("Escolha uma opção: ");
     string opcao = Console.ReadLine();
@@ -30,10 +28,6 @@ while (continuar)
         Console.WriteLine("Opção inválida. Por favor, escolha uma opção válida.");
         Console.WriteLine("\n===================================================");
         continue;
-    }
-    if(opcao == "2")
-    {
-        gerenciador.ListarTarefas();
     }
     else if(opcao == "1")
     {
@@ -46,63 +40,14 @@ while (continuar)
             continue;
         }
 
-        bool existeTarefa = gerenciador.VerificarExistenciaTarefa(descricao);
-        
-        if(opcao == "1")
-        {
-            if(existeTarefa)
-            {
-                Console.WriteLine($"A tarefa '{descricao}' já existe. Não é possível adicionar duplicatas.");
-                Console.WriteLine("\n===================================================");
-                continue;
-            }
-            Tarefa novaTarefa = new Tarefa(descricao);
-            gerenciador.AdicionarTarefa(novaTarefa);
-            Console.WriteLine($"Tarefa '{descricao}' adicionada com sucesso!");
-        }
+        Tarefa novaTarefa = new Tarefa(descricao);
+        gerenciador.AdicionarTarefa(novaTarefa);
     }
-    else if(opcao == "3" || opcao == "4")
+    else if(opcao == "2")
     {
-        if(gerenciador.ListaVazia())
-        {
-            Console.WriteLine("Nenhuma tarefa cadastrada. Não é possível realizar esta operação.");
-            Console.WriteLine("\n===================================================");
-            continue;
-        }
-        
-        Console.Write("Digite o nome da tarefa: ");
-        string descricao = Console.ReadLine();
-        if(descricao == "")
-        {
-            Console.WriteLine("Descrição da tarefa não pode ser vazia.");
-            Console.WriteLine("\n===================================================");
-            continue;
-        }
-
-        bool existeTarefa = gerenciador.VerificarExistenciaTarefa(descricao);
-
-        if(opcao == "3")
-        {
-            if(!existeTarefa)
-            {
-                Console.WriteLine($"A tarefa '{descricao}' não existe.");
-                Console.WriteLine("\n===================================================");
-                continue;
-            }
-            gerenciador.AlternarStatusTarefa(descricao);
-        }
-        else if(opcao == "4")
-        {
-            if(!existeTarefa)
-            {
-                Console.WriteLine($"A tarefa '{descricao}' não existe.");
-                Console.WriteLine("\n===================================================");
-                continue;
-            }
-            gerenciador.ExcluirTarefa(descricao);
-        }
+        gerenciador.ListarTarefas();
     }
-    else if(opcao == "5")
+    else if(opcao == "3")
     {
         continuar = false;
         Console.WriteLine("\n============== Finalizando o Menu =================\n");
