@@ -12,3 +12,4 @@ D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\refint\GerenciadorTarefas
 D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.pdb
 D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.genruntimeconfig.cache
 D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\ref\GerenciadorTarefas.dll
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.sourcelink.json
