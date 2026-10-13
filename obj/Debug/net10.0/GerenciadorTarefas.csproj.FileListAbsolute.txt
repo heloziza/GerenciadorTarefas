@@ -1,0 +1,14 @@
+D:\helog\Projetos\GerenciadorTarefas\bin\Debug\net10.0\GerenciadorTarefas.exe
+D:\helog\Projetos\GerenciadorTarefas\bin\Debug\net10.0\GerenciadorTarefas.deps.json
+D:\helog\Projetos\GerenciadorTarefas\bin\Debug\net10.0\GerenciadorTarefas.runtimeconfig.json
+D:\helog\Projetos\GerenciadorTarefas\bin\Debug\net10.0\GerenciadorTarefas.dll
+D:\helog\Projetos\GerenciadorTarefas\bin\Debug\net10.0\GerenciadorTarefas.pdb
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.GeneratedMSBuildEditorConfig.editorconfig
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.AssemblyInfoInputs.cache
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.AssemblyInfo.cs
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.csproj.CoreCompileInputs.cache
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.dll
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\refint\GerenciadorTarefas.dll
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.pdb
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\GerenciadorTarefas.genruntimeconfig.cache
+D:\helog\Projetos\GerenciadorTarefas\obj\Debug\net10.0\ref\GerenciadorTarefas.dll
